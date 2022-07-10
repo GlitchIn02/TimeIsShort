@@ -1,0 +1,29 @@
+{
+  "name": "timeisshort",
+  "version": "1.0.0",
+  "description": "24시간중 내가 능동적으로 관리하고 반영하는시간이 궁금해 만들어봅니다.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel start:**",
+    "start:server":"cd server && nodemon server",
+    "start:client":"cd timeisshort && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlitchIn02/TimeIsShort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GlitchIn02/TimeIsShort/issues"
+  },
+  "homepage": "https://github.com/GlitchIn02/TimeIsShort#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "npm-run-all": "^4.1.5"
+  }
+}
